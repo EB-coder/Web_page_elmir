@@ -32,3 +32,7 @@ At the end of this page we have a footer with copyrights and contact information
 contacts are a linked button.
 ![footer_part](https://user-images.githubusercontent.com/73636880/141789690-e4eb4459-45fa-4855-92ff-a1b777a9f265.PNG)
 
+-----------
+
+page testing result
+![page_test](https://user-images.githubusercontent.com/73636880/141796489-0a829a09-20fc-4250-8953-a8d041323df6.PNG)
