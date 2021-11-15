@@ -1,0 +1,149 @@
+html{
+	font-size: 16px;
+}
+body{
+	font-family: 'Titillium Web',sans-serif;
+	font-size: 16px;
+	font-weight: 400px;
+	color: black;
+	min-width: 320px;
+}
+
+
+.section{
+	padding: 50px 0;
+}
+a{
+	color: #FFF;
+}
+a:hover{
+	color: #555;
+}
+/*Header*/
+.navbar-light .navbar-nav .nav-link{
+	color: #111;
+	font-weight: 500px;
+	text-transform: uppercase;
+}
+.navbar-expand-lg .navbar-nav .dropdown-menu{
+	right: 0;
+	left: auto;
+
+}
+.top-menu li a::after{
+	content: '';
+	display: block;
+	width: 100%;
+	background-color:#fff;
+	height: 1px;
+	transition: all .3s;
+	transform: scale(0);
+	left: 50%;
+}
+.top-menu li a:hover::after{
+	transform: scale(1);
+}
+.my-carousel{
+	padding: 0;
+}
+.my-carousel .carousel-item{
+	display: flex;
+	max-height: 500px;
+}
+.my-carousel .carousel-item img{
+	object-fit: cover;
+}
+.carousel-content {
+  position: absolute;
+  bottom: 80%;
+  left: 10%;
+  color: ghostwhite;
+  text-shadow: 0 1px 2px rgba(0,0,0,.6);
+  font-family: 'Saira Condensed', sans-serif;
+}
+.carousel-content1 {
+  position: absolute;
+  bottom: 80%;
+  left: 2%;
+  color: floralwhite;
+  text-shadow: 0 1px 2px rgba(0,0,0,.6);
+  font-family: 'Saira Condensed', sans-serif;
+}
+.container-video{
+	background-color:#E4F5D4;
+	opacity: 1;
+	
+
+}
+.text{
+	display: flex;
+	padding: 30px;
+	font-family: 'Saira Condensed', sans-serif;
+	justify-content: center;
+	align-items: center;
+	margin: 10px;
+	
+}
+.card{
+	left: 5%;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+
+}
+.footer{
+	color: white;
+	background-color: black;
+    font-family: 'Saira Condensed', sans-serif;
+    padding: 20px;
+}
+.first-video{
+	padding: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.hide {
+    display: none; 
+}
+.hide + label ~ div{
+    display: none;
+}
+/* оформляем текст label */
+.hide + label {
+    border-bottom: 1px dotted green;
+    padding: 0;
+    color: green;
+    cursor: pointer;
+    display: inline-block; 
+}
+/* вид текста label при активном переключателе */
+.hide:checked + label {
+    color: blue;
+    border-bottom: 0;
+}
+/* когда чекбокс активен показываем блоки с содержанием  */
+.hide:checked + label + div {
+    display: block; 
+    background: #efefef;
+    -moz-box-shadow: inset 3px 3px 10px #7d8e8f;
+    -webkit-box-shadow: inset 3px 3px 10px #7d8e8f;
+    box-shadow: inset 3px 3px 10px #7d8e8f;
+    padding: 5px; 
+}
+
+/* demo контейнер */
+.demo {
+    margin: 5% 5%;
+    padding: 20px;
+}
+.building-img{
+	height: 120px;
+	width: 120px;
+}
+
+
+
+
