@@ -15,6 +15,7 @@ Inside the card you can see the images that we use and the description.
 Also here used info-buttons.
 
 A little-bit lower we have a embedded video from youtube.
+![embedded video](https://user-images.githubusercontent.com/73636880/141789663-d9e3e54b-4f39-4a5c-a531-f3a199a8a2d0.PNG)
 
 Here is the dropdown button with the payment info
 
