@@ -10,6 +10,7 @@ For the heading was added the image-slid which was created with help of bootstra
 LET'S CONTINUE...
 
 On the content section we add some cards with the information about vehicles.
+![cards](https://user-images.githubusercontent.com/73636880/141789612-1736c90c-d0cd-4bb6-b2a4-f61ebaba0b38.PNG)
 Inside the card you can see the images that we use and the description.
 Also here used info-buttons.
 
