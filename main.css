@@ -111,7 +111,7 @@ a:hover{
 .hide + label ~ div{
     display: none;
 }
-/* оформляем текст label */
+
 .hide + label {
     border-bottom: 1px dotted green;
     padding: 0;
