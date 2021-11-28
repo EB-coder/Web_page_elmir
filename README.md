@@ -36,3 +36,6 @@ contacts are a linked button.
 
 page testing result
 ![page_test](https://user-images.githubusercontent.com/73636880/141796489-0a829a09-20fc-4250-8953-a8d041323df6.PNG)
+
+link to the page:
+https://eb-coder.github.io/Web_page_elmir/
