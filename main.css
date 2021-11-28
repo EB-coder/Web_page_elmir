@@ -119,12 +119,12 @@ a:hover{
     cursor: pointer;
     display: inline-block; 
 }
-/* вид текста label при активном переключателе */
+
 .hide:checked + label {
     color: blue;
     border-bottom: 0;
 }
-/* когда чекбокс активен показываем блоки с содержанием  */
+
 .hide:checked + label + div {
     display: block; 
     background: #efefef;
@@ -134,7 +134,6 @@ a:hover{
     padding: 5px; 
 }
 
-/* demo контейнер */
 .demo {
     margin: 5% 5%;
     padding: 20px;
